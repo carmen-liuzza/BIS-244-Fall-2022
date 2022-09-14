@@ -97,6 +97,8 @@ mean(SNOHOMISH$incr_cases)
 mean(SNOHOMISH$incr_cases, na.rm=TRUE)
 meancases <- mean(SNOHOMISH$incr_cases, na.rm=TRUE)
 
+
+
 # Initialize seperate vectors for cases above and below average
 SNOHOMISH$above_cases <- 0
 SNOHOMISH$below_cases <- 0
